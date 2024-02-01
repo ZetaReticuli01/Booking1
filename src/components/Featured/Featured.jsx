@@ -8,7 +8,7 @@ const Featured = () => {
             <img src="https://cf.bstatic.com/xdata/images/city/600x600/684730.jpg?k=e37b93d88c1fe12e827f10c9d6909a1def7349be2c68df5de885deaa4bc01ee3&o=" alt="" className="featuredImg" />
             <div className="featuredTitles">
                 <h1>Chennai</h1>
-                <h2>1,406 Properties</h2>
+                <h2>1,40666 Properties</h2>
             </div>
         </div>
         <div className="featuredItem">
@@ -22,7 +22,7 @@ const Featured = () => {
             <img src="https://cf.bstatic.com/xdata/images/city/600x600/786904.jpg?k=ded708831ab55bb2a028de7bf266af5f81aa051832a7ca7f5e3c7a5a6230ae91&o=" alt="" className="featuredImg" />
             <div className="featuredTitles">
                 <h1>Mahabalipuram</h1>
-                <h2>95 Properties</h2>
+                <h2>445 Properties</h2>
             </div>
         </div>
         {/* <div className="featuredItem">
