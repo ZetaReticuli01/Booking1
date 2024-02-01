@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@100;300&display=swap');
+
+.featured{
+    width: 100px;
+    min-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    z-index: 1;
+}
+
+.featuredItem{
+    position: relative;
+    color: aliceblue;
+    /* border-radius: 10px; */
+    border-radius: 10px 10px 10px 10px; /* Apply border-radius to all corners individually */
+
+    overflow: hidden;
+    height:200px;
+}
+
+.featuredImg{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.featuredTitles{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.featuredTitles h1 {
+    font-size: 1.5rem; /* Adjusted font size for h1 */
+}
+
+.featuredTitles h2 {
+    font-size: 1rem; /* Adjusted font size for h2 */
+}
+
+.featuredItem:nth-child(3) .featuredTitles h1 {
+    font-size: 1.2rem; /* Adjusted font size for "Mahabalipuram" */
+    white-space: normal; /* Allowing the text to wrap to the next line */
+}

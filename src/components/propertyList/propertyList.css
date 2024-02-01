@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Poppins:wght@100;300;600;700&display=swap');
+
+
+.pList{
+    /* width: 100%;
+    min-width: 1024px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    overflow: hidden; */
+    width: 100px;
+    min-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.pListItem{
+    border-radius: 10px;
+    overflow: hidden;
+    cursor:pointer;
+   
+    /* Adjust the margin to control the spacing */
+    flex: 1;
+    gap:10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pListImg{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.pListTitles {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.pListTitles h1 {
+    font-size: 1.2rem; /* Adjust the font size for the main title */
+    margin-bottom: 8px;
+    font-weight:bolder;
+}
+
+.pListTitles h2 {
+    font-size: 1rem; /* Adjust the font size for the subtitle */
+}
