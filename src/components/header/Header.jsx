@@ -28,7 +28,7 @@ const Header = ({type}) => {
         adult:1,
         children:0,
         room:1,
-      }  );
+      });
 const navigate=useNavigate()
 
 const handleOption=(name,operation)=>{
@@ -70,7 +70,7 @@ navigate("/hotels",{state:{destination,date,options}})
             <div className="headerListItem">
             <FontAwesomeIcon icon={faTaxi} />
             <span>Airport taxis</span></div>
-           
+
         </div>
       {type!=="list" &&
         <>  <h1 className="headerTitle">A lifetime of discounts?It's Genius.</h1>
@@ -93,6 +93,7 @@ navigate("/hotels",{state:{destination,date,options}})
   moveRangeOnFirstSelection={false}
   ranges={date}
   className="date"
+  minDate={new Date()}
 /> }
   
 </div>
